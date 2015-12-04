@@ -1,0 +1,464 @@
+Initializing Stardog
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Sat Nov 14 11:27:20 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3/bin/.. 
+
+Initializing Stardog
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Sun Nov 15 20:41:20 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+
+WARN  2015-11-15 20:43:36,982 [SPEC-Server-1-2] com.complexible.stardog.StardogKernel:createDatabase(1043): Following options cannot be set at creation time and/or contradict with other options: [index.persist.sync]
+Successfully created database 'sweb-socialnetwork'.
+WARN  2015-11-15 21:24:38,913 [SPEC-Server-1-2] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+Initializing Stardog
+WARN  2015-11-16 11:21:02,321 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Mon Nov 16 11:21:03 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+
+Bulk loading data to new database mydb.
+Loaded 13 triples to mydb from 1 file(s) in 00:00:03.066 @ 0.0K triples/sec.
+Successfully created database 'mydb'.
+Bulk loading data to new database swebproject.
+WARN  2015-11-16 11:50:11,489 [SPEC-Server-1-2] com.complexible.common.rdf.rio.RDFStreamProcessor:setException(532): Error parsing /home/sahil/Desktop/2013100_ProjectDeliverable2-OntologySubmissionandpresentation.owl: unqualified attribute 'ontologyIRI' not allowed [line 18, column 93]
+Loaded 0 triples to swebproject from 1 file(s) in 00:00:01.705 @ 0.0K triples/sec.
+Errors were encountered during loading:
+File: /home/sahil/Desktop/2013100_ProjectDeliverable2-OntologySubmissionandpresentation.owl Message: unqualified attribute 'ontologyIRI' not allowed [line 18, column 93]
+Successfully created database 'swebproject'.
+Initializing Stardog
+WARN  2015-11-16 13:13:37,056 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-16 13:13:38,404 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-16 13:13:38,533 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Mon Nov 16 13:13:41 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+
+Bulk loading data to new database swebcomplete.
+Loaded 195 triples to swebcomplete from 1 file(s) in 00:00:01.326 @ 0.1K triples/sec.
+Successfully created database 'swebcomplete'.
+Initializing Stardog
+WARN  2015-11-18 18:11:38,414 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-18 18:11:38,890 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-18 18:11:38,956 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Wed Nov 18 18:11:40 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+
+WARN  2015-11-18 18:31:07,189 [StardogServer.WorkerGroup-1] io.netty.channel.DefaultChannelPipeline:warn(151): An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: java.nio.channels.ClosedChannelException
+	at com.complexible.stardog.protocols.http.server.HttpMessageEncoder$SendResponseChannelOutputStream.assertNoError(HttpMessageEncoder.java:445) ~[stardog-protocols-http-server-4.0-RC3.jar:?]
+	at com.complexible.stardog.protocols.http.server.HttpMessageEncoder$SendResponseChannelOutputStream.close(HttpMessageEncoder.java:363) ~[stardog-protocols-http-server-4.0-RC3.jar:?]
+	at com.complexible.stardog.protocols.http.server.HttpMessageEncoder.write(HttpMessageEncoder.java:172) [stardog-protocols-http-server-4.0-RC3.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:633) [netty-all-4.0.30.Final.jar:4.0.30.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.access$1900(AbstractChannelHandlerContext.java:32) [netty-all-4.0.30.Final.jar:4.0.30.Final]
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:908) [netty-all-4.0.30.Final.jar:4.0.30.Final]
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:960) [netty-all-4.0.30.Final.jar:4.0.30.Final]
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:893) [netty-all-4.0.30.Final.jar:4.0.30.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:356) [netty-all-4.0.30.Final.jar:4.0.30.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) [netty-all-4.0.30.Final.jar:4.0.30.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:110) [netty-all-4.0.30.Final.jar:4.0.30.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_60]
+Caused by: java.nio.channels.ClosedChannelException
+Initializing Stardog
+WARN  2015-11-18 19:26:12,887 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-18 19:26:13,667 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-18 19:26:13,884 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Wed Nov 18 19:26:14 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+
+Initializing Stardog
+WARN  2015-11-18 23:19:05,478 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-18 23:19:05,632 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-18 23:19:05,646 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Wed Nov 18 23:19:06 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+
+Initializing Stardog
+WARN  2015-11-18 23:42:12,001 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-18 23:42:12,122 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-18 23:42:12,136 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Wed Nov 18 23:42:12 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+
+Initializing Stardog
+WARN  2015-11-19 00:18:21,703 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-19 00:18:21,818 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-19 00:18:21,832 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Thu Nov 19 00:18:22 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+
+Initializing Stardog
+WARN  2015-11-19 10:43:52,985 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-19 10:43:57,888 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-19 10:43:59,372 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+Loading Databases: 100% complete in 00:00:07Loading Databases: 100% complete in 00:00:07
+Loading Databases finished in 00:00:07.335
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Thu Nov 19 10:44:03 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+
+Initializing Stardog
+WARN  2015-11-19 10:51:13,507 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-19 10:51:14,187 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+WARN  2015-11-19 10:51:14,382 [main] com.complexible.stardog.metadata.MetadataIO:readBytes(258): Unrecognized option in the metadata: search.version
+
+************************************************************
+This copy of Stardog is licensed to Sahil Shekhawat (sahilshekhawat01@gmail.com), IIIT-Delhi
+This is a Community license
+This license does not expire.
+************************************************************
+
+                                                             :;   
+                                      ;;                   `;`:   
+  `'+',    ::                        `++                    `;:`  
+ +###++,  ,#+                        `++                    .     
+ ##+.,',  '#+                         ++                     +    
+,##      ####++  ####+:   ##,++` .###+++   .####+    ####++++#    
+`##+     ####+'  ##+#++   ###++``###'+++  `###'+++  ###`,++,:     
+ ####+    ##+        ++.  ##:   ###  `++  ###  `++` ##`  ++:      
+  ###++,  ##+        ++,  ##`   ##;  `++  ##:   ++; ##,  ++:      
+    ;+++  ##+    ####++,  ##`   ##:  `++  ##:   ++' ;##'#++       
+     ;++  ##+   ###  ++,  ##`   ##'  `++  ##;   ++:  ####+        
+,.   +++  ##+   ##:  ++,  ##`   ###  `++  ###  .++  '#;           
+,####++'  +##++ ###+#+++` ##`   :####+++  `####++'  ;####++`      
+`####+;    ##++  ###+,++` ##`    ;###:++   `###+;   `###++++      
+                                                    ##   `++      
+                                                   .##   ;++      
+                                                    #####++`      
+                                                     `;;;.        
+
+************************************************************
+
+Stardog server 4.0-RC3 started on Thu Nov 19 10:51:15 IST 2015.
+
+Stardog server is listening on all network interfaces.
+SNARL server available at snarl://localhost:5820.
+HTTP server available at http://localhost:5820.
+
+STARDOG_HOME=/home/sahil/stardog-4.0-RC3 
+

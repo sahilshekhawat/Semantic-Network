@@ -1,0 +1,70 @@
+<div id="menu"></div>
+
+<div id="alert"></div>
+
+{{
+  function allow(metadata, propertyId) {
+    return (metadata.hasOwnProperty(propertyId) && (
+           (propertyId !== "index.persist" && propertyId !== "index.persist.sync") ||
+           (metadata["index.type"].toLowerCase() === "memory" && (propertyId === "index.persist" || propertyId === "index.persist.sync"))
+           ));
+  }
+}}
+
+<div class="row">
+  <div class="col-md-12">
+
+    <div class="panel panel-default">
+
+      <div class="panel-heading">
+        <div class="row">
+          <div class="col-md-10">
+            <h1 class="sw-icon icon-data">{{=it.metadata["database.name"]}}</h1>
+          </div>
+          <div class="col-md-2 addtooltip" title="Database status" style="margin-top: 25px;">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-body">
+        {{~ it["metadata.groups"] :value}}
+        {{ if (value.elements && value.elements.length >0) { }}
+        <h4>{{= value.groupName}}</h4>
+        <table class="table table-striped">
+          <tbody>
+            {{~ value["elements"] :opt}}
+            {{ if (allow(it.metadata, opt.id) && opt.viewable) { }}
+            <tr style="width: 100%;" data-setting="{{= opt.id }}">
+              <td style="width: 60%;">
+                <span class="addtooltip" {{? opt.help}}title="{{= opt.help }}"{{?}}>{{= opt.label}}</span>
+              </td>
+              <td style="width: 40%;">
+                {{ if (typeof it.metadata[opt.id] === "boolean" || it.metadata[opt.id]) { }}
+                  {{ if (opt.input && opt.input.type === "checkbox") { }}
+                <input type="checkbox" class="switch" {{? it.metadata[opt.id]}}checked{{?}} disabled>
+                  {{ } else if (opt.input && opt.input.type === "multiinput") { }}
+                  <div class="multiinput" data-option="{{= opt.id }}">
+                    {{ var nsArray = it.metadata[opt.id]; }}
+                    {{~ nsArray :ns :index}}
+                    <span>{{= ns}}</span> <br/>
+                    {{~}}
+                  </div>
+                  {{ } else { }}
+                      {{= it.metadata[opt.id]}}
+                  {{ } }}
+                {{ } else { }}
+                <span class="label label-warning">Empty</span>
+                {{ } }}
+              </td>
+            </tr>
+            {{ } }}
+            {{~}}
+          </tbody>
+        </table>
+        {{ } }}
+        {{~}}
+      </div>
+    </div>
+  </div>
+</div>

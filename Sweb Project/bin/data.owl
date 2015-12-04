@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:stardog="tag:stardog:api:"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#belongs_to">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#SocialNetwork"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#SocialNetwork">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#connects_to">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#generates">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Activity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Activity">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#has_member">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Group"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Group">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#is_recommended">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Group"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#post_has_sentiment">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Post"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sentiment"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Post">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sentiment">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#publishes">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Post"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#refers_to">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Activity"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#relates_to">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Activity"/>
+	<rdfs:range rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Post"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_description">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Activity"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_time">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Activity"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#birthday">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#group_title">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Group"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#is_happy">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sentiment"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	<owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#is_sad"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#is_sentiment"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#is_sad">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sentiment"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#is_sentiment"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#is_sentiment">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#name">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#post_creation_time">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Post"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#post_description">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Post"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#social_network_title">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#SocialNetwork"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Feeling_Relaxed">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Post"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<post_has_sentiment rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#sentiment_post1"/>
+	<post_creation_time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11AM on 01/01/2015</post_creation_time>
+	<post_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sahil posted " Feeling_Relaxed " at 11 AM on 01/01/2015</post_description>
+	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post1</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#sentiment_post1">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sentiment"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<is_happy rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</is_happy>
+	<is_sad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_sad>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#IIITD_Football">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Group"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<has_member rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sahil"/>
+	<group_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IIIT Delhi Football Group</group_title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sahil">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<belongs_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#facebook"/>
+	<connects_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Shubham"/>
+	<generates rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post1"/>
+	<generates rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post2"/>
+	<publishes rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Feeling_Relaxed"/>
+	<publishes rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#I_Love_Liverpool"/>
+	<birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11/01/1995</birthday>
+	<name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sahil Shekhawat</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#I_Love_Liverpool">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Post"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<post_has_sentiment rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#sentiment_post2"/>
+	<post_creation_time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11AM on 02/01/2015</post_creation_time>
+	<post_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sahil posted " I_Love_Liverpool" at 11AM on 02/01/2015</post_description>
+	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post2</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#sentiment_post2">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sentiment"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<is_happy rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</is_happy>
+	<is_sad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_sad>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#I_Love_Liverpool_too">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Post"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<post_has_sentiment rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#sentiment_post3"/>
+	<post_creation_time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10AM on 02/01/2015</post_creation_time>
+	<post_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shubham posted "I_Love_Liverpool_too" at 10AM on 02/01/2015</post_description>
+	<rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post3</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#sentiment_post3">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sentiment"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<is_happy rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</is_happy>
+	<is_sad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_sad>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Shubham">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Person"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<belongs_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#facebook"/>
+	<connects_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sahil"/>
+	<generates rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post3"/>
+	<is_recommended rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#IIITD_Football"/>
+	<publishes rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#I_Love_Liverpool_too"/>
+	<birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12/08/1995</birthday>
+	<name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shubham Sharma</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post1">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Activity"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<refers_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sahil"/>
+	<relates_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Feeling_Relaxed"/>
+	<activity_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sahil posted "Feeling Relaxed" on facebook at 10 AM on 01/01/2015</activity_description>
+	<activity_time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11AM on 01/01/2015</activity_time>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post2">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Activity"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<refers_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sahil"/>
+	<relates_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#I_Love_Liverpool"/>
+	<activity_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sahil posted " I Love Liverpool " at 11 AM on 02/01/2015</activity_description>
+	<activity_time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11 AM on 02/01/2015</activity_time>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#facebook">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#SocialNetwork"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<social_network_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facebook</social_network_title>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post3">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Activity"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<refers_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Shubham"/>
+	<relates_to rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#I_Love_Liverpool_too"/>
+	<activity_description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shubham posted " I_Love_Liverpool_too" at 10 AM on 02/01/2015</activity_description>
+	<activity_time rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02/01/2015</activity_time>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#twitter">
+	<rdf:type rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#SocialNetwork"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<social_network_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Twitter</social_network_title>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+	<owl:distinctMembers rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_2"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_2">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post2"/>
+	<rdf:rest rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_3"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_3">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post3"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_4">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+	<owl:distinctMembers rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_5"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_5">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#facebook"/>
+	<rdf:rest rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_6"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_6">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#twitter"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_7">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+	<owl:distinctMembers rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_8"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_8">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post1"/>
+	<rdf:rest rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_9"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_9">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post2"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_10">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+	<owl:distinctMembers rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_11"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_11">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#sentiment_post1"/>
+	<rdf:rest rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_12"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_12">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#sentiment_post2"/>
+	<rdf:rest rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_13"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_13">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#sentiment_post3"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_14">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+	<owl:distinctMembers rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_15"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_15">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Sahil"/>
+	<rdf:rest rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_16"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_16">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Shubham"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_17">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+	<owl:distinctMembers rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_18"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_18">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post1"/>
+	<rdf:rest rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_19"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_19">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#activity_post3"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_20">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+	<owl:distinctMembers rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_21"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_21">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#Feeling_Relaxed"/>
+	<rdf:rest rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_22"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_22">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#I_Love_Liverpool"/>
+	<rdf:rest rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_23"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_a720883b_90a6_42cd_942f_7a84d88c2efc_23">
+	<rdf:first rdf:resource="http://www.semanticweb.org/shubham/ontologies/2015/9/untitled-ontology-5#I_Love_Liverpool_too"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+</rdf:RDF>
